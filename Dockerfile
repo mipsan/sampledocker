@@ -10,7 +10,7 @@ RUN yum -y install httpd
 # 4.Web 컨텐츠
 ADD html/ /var/www/html/
 
-# 5.포트 번호
+# 5.포트 번호()
 EXPOSE 80
 
 # 6.httpd 실행
